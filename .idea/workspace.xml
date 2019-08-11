@@ -63,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dingshi/sendemail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="38" column="49" lean-forward="true" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+            <state relative-caret-position="444">
+              <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
               <folding>
                 <element signature="e#165#175#0" expanded="true" />
               </folding>
@@ -97,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="130" />
     <option name="y" value="46" />
     <option name="width" value="1720" />
@@ -294,7 +294,7 @@
       <updated>1565417200369</updated>
       <workItem from="1565417203307" duration="4163000" />
       <workItem from="1565422521907" duration="6018000" />
-      <workItem from="1565482133941" duration="3248000" />
+      <workItem from="1565482133941" duration="6261000" />
     </task>
     <task id="LOCAL-00001" summary="定时发送邮件项目">
       <created>1565421088003</created>
@@ -373,11 +373,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565487209057</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="测试邮件">
+      <created>1565487948473</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1565487948473</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13429000" />
+    <option name="totallyTimeSpent" value="16442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,15 +396,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="104" y="37" width="1376" height="710" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.22306526" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.19705094" />
       <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.19168901" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21107267" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38668555" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,7 +434,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DingshiDemo$connDB.coverage" NAME="connDB Coverage Results" MODIFIED="1565422855879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dingshi" />
-    <SUITE FILE_PATH="coverage/DingshiDemo$sendemail.coverage" NAME="sendemail Coverage Results" MODIFIED="1565487847758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dingshi" />
+    <SUITE FILE_PATH="coverage/DingshiDemo$sendemail.coverage" NAME="sendemail Coverage Results" MODIFIED="1565490896337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dingshi" />
     <SUITE FILE_PATH="coverage/DingshiDemo$email.coverage" NAME="email Coverage Results" MODIFIED="1565486778885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dingshi" />
     <SUITE FILE_PATH="coverage/DingshiDemo$conndb.coverage" NAME="conndb Coverage Results" MODIFIED="1565486460537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dingshi" />
     <SUITE FILE_PATH="coverage/DingshiDemo$ds.coverage" NAME="ds Coverage Results" MODIFIED="1565422597384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dingshi" />
@@ -438,13 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Programs/Python/Python37/Lib/smtplib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="787" column="8" selection-start-line="787" selection-start-column="8" selection-end-line="787" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -504,10 +504,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1430972604/sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="179" column="4" selection-start-line="179" selection-start-column="4" selection-end-line="179" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Programs/Python/Python37/Lib/smtplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="787" column="32" selection-start-line="787" selection-start-column="23" selection-end-line="787" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dingshi/sendemail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="38" column="49" lean-forward="true" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+        <state relative-caret-position="444">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding>
             <element signature="e#165#175#0" expanded="true" />
           </folding>
