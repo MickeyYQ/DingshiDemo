@@ -1,6 +1,11 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
+
+# ModuleNotFoundError: No module named 'email.mime'; 'email' is not a package
+# 第一：未导入包   第二：包名和文件名冲突
+# 该功能不能与导入的模块名称相同
+
 import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
