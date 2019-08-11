@@ -6,6 +6,7 @@
 # 第一：未导入包   第二：包名和文件名冲突
 # 该功能不能与导入的模块名称相同
 
+import sys
 import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
@@ -31,5 +32,11 @@ try:
     smtpObj.login(mail_user, mail_pass)
     smtpObj.sendmail(sender, receivers, message.as_string())
     print("邮件发送成功")
+
+# except OSError as err:
+#     print("OS error: {0}".format(err))
 except smtplib.SMTPException:
+    print("Unexpected error:", sys.exc_info()[0])
     print("Error: 无法发送邮件")
+    # 当程序出现错误，python会自动引发异常，也可以通过raise显示地引发异常。一旦执行了raise语句，raise后面的语句将不能执行。
+    raise
